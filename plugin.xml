@@ -52,7 +52,7 @@
         <framework src="NetworkExtension.framework" />
             
         <!-- Add HotspotConfiguration & NetworkExtension Capabilities  -->
-        <config-file parent="com.apple.developer.networking.HotspotConfiguration" target="*/Entitlements-Debug.plist">
+        <!-- <config-file parent="com.apple.developer.networking.HotspotConfiguration" target="*/Entitlements-Debug.plist">
             <true/>
         </config-file>
         <config-file parent="com.apple.developer.networking.HotspotConfiguration" target="*/Entitlements-Release.plist">
@@ -69,7 +69,7 @@
         </config-file>
         <config-file parent="com.apple.developer.networking.wifi-info" target="*/Entitlements-Release.plist">
                 <true/>
-        </config-file>
+        </config-file> -->
             
         <header-file src="src/ios/WifiWizard2.h" />
         <source-file src="src/ios/WifiWizard2.m" />
